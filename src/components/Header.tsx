@@ -8,3 +8,4 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ title }) => {
     return <h1 className="header">{title}</h1>;
 };
+

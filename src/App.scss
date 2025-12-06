@@ -1,8 +1,24 @@
 /* App.scss */
 .app {
   min-height: 100vh;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+p {
+  margin-top: 5px;
+  align-self: flex-start;
+}
+
+.opacity {
+  opacity: 50%;
+}
+
+.center {
+  align-self: center;
+}
+
+.left {
+  align-self: flex-start;
 }
