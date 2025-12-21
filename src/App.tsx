@@ -29,14 +29,14 @@ export const App = () => {
             <p dangerouslySetInnerHTML={{ __html: t.progress }} />
             <Spacer />
             <Divider />
-            <SubHeader title="EMM Backtest" />
+            <SubHeader title="EMM Backtest – EMM Quinta Medulla Invariance" />
             <p dangerouslySetInnerHTML={{ __html: t.backtest }} />
             <Spacer />
 
             <p className="opacity" dangerouslySetInnerHTML={{ __html: t.methodology }} />
             <Spacer />
             <Divider />
-            <SubHeader title="EMM Backtest Methodology" />
+            <SubHeader title="Backtest Methodology" />
             <a href="https://euro-macromechanica-backtest.github.io">https://euro-macromechanica-backtest.github.io</a>
             <a href="https://euro-macromechanica-backtest.pages.dev">https://euro-macromechanica-backtest.pages.dev</a>
             <Spacer />
