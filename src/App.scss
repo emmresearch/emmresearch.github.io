@@ -22,3 +22,12 @@ p {
 .left {
   align-self: flex-start;
 }
+
+.lang {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  font-size: small;
+}
